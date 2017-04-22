@@ -27,12 +27,4 @@ $(function() {
 		 }
 	});//end resize
 
-	var userFeed = new Instafeed({
-        get: 'user',
-        userId: '3144997008',
-        accessToken: '8e307617dd5d4bd3abed88e9ce1e78ae',
-        template: '<a href="{{link}}"><img src="{{image}}" /></a>'
-    });
-    userFeed.run();
-
 });

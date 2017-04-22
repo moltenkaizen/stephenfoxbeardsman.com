@@ -147,8 +147,9 @@ a {
     letter-spacing: -3px;
 }
 .container {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
 }
 
 #photography-credit {
@@ -196,6 +197,12 @@ a {
 .brand-images p {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.product-box {
+    background-color: rgb(28, 28, 28);
+    padding: 40px 30px 20px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
